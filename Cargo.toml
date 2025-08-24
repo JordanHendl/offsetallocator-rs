@@ -1,0 +1,14 @@
+[package]
+name = "OffsetAllocator-rs"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+default = []
+use_16_bit_node_indices = []
+debug_offset_alloc = []
+
+[dependencies]
+
+
+[lib]
