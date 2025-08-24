@@ -19,7 +19,7 @@ This crate manages **offset ranges inside a fixed-size region** (like GPU heaps 
 
 ```toml
 [dependencies]
-offsetallocator = { git = "https://github.com/JordanHendl/offsetallocator-rs" }
+offset-allocator = { git = "https://github.com/JordanHendl/offsetallocator-rs" }
 ```
 
 ---

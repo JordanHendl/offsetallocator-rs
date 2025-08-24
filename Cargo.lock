@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "OffsetAllocator-rs"
+name = "offset-allocator"
 version = "0.1.0"
