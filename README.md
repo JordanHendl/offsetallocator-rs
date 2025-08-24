@@ -27,7 +27,7 @@ offset-allocator = { git = "https://github.com/JordanHendl/offsetallocator-rs" }
 ## Example
 
 ```rust
-use offsetallocator::{Allocator, Allocation};
+use offset_allocator::{Allocator, Allocation};
 
 fn main() {
     let mut alloc = Allocator::new(12_345);
