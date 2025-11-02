@@ -37,7 +37,7 @@ pub struct StorageReportFullRegion {
     pub count: u32,
 }
 
-#[derive(Clone)]
+#[derive(Debug, Clone)]
 pub struct Allocator {
     size: u32,
     max_allocs: u32,
@@ -68,7 +68,7 @@ impl Default for Allocator {
     }
 }
 
-#[derive(Clone, Copy, Default)]
+#[derive(Debug, Clone, Copy, Default)]
 struct Node {
     data_offset: u32,
     data_size: u32,
