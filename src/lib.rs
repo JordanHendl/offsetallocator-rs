@@ -22,16 +22,18 @@ impl Allocation {
     pub const NO_SPACE: u32 = 0xffffffff;
 }
 
+#[derive(Debug, Clone, Copy)]
 pub struct StorageReport {
     pub total_free_space: u32,
     pub largest_free_region: u32,
 }
 
+#[derive(Debug, Clone, Copy)]
 pub struct StorageReportFull {
     pub free_regions: [StorageReportFullRegion; NUM_LEAF_BINS as usize],
 }
 
-#[derive(Clone, Copy)]
+#[derive(Debug, Clone, Copy)]
 pub struct StorageReportFullRegion {
     pub size: u32,
     pub count: u32,
